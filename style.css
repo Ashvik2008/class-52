@@ -1,0 +1,147 @@
+h1{
+    color:black;
+}
+
+a{
+    color: black;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 15px;
+    border-width: 5px;
+    border: 2px dotted black;
+    border-collapse: collapse;
+}
+ img{
+  /*   mask-image:linear-gradient(to bottom, transparent 25%  , black 75%);
+     -webkit-mask-image: linear-gradient(to bottom, transparent 25%  , black 75%);*/
+   /*  -webkit-mask-image: url("image-mask.png");
+     mask-image: url("image-mask.png");
+     -webkit-mask-size: 400px 600px;
+     mask-size: 400px 600px;*/
+
+     mask-image:radial-gradient(circle at 50% 60%, black 50%, rgba(0, 0, 0, 0.6) 50%);
+     -webkit-mask-image: radial-gradient(circle at 50% 60%, black 50%, rgba(0, 0, 0, 0.6) 50%);
+    
+    }
+
+body{
+    background: url("Bg.jpg");
+}
+
+*{
+    border: solid;
+}
+
+a{
+    color: #fff;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+a:visited{
+    color: #00ffff;
+}
+
+a:link{
+    color: #804384;
+}
+
+a:active{
+    color :#738479;
+}
+
+a:hover{
+    background: #f39c12;
+    color:#000000;
+}
+
+.header{
+   background-color: #abdabd; 
+   display: flex;
+   margin: 5px;
+  justify-content: space-between;
+}
+
+.header .content{
+    margin: 5px;
+    padding: 10px;
+}
+
+.header .link{
+    padding: 10px;
+    float: right;
+}
+.footer{
+    background-color: cyan;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-container{
+    background-color: #dacdba;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#big{
+    color: grey;
+}
+
+.item{
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.item:hover{
+    opacity: 0.2322;
+}
+
+.item p{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+}
+
+#Abtme{
+    text-transform: uppercase;
+    border: black;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#abtmep{
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.ol-text{
+    margin-left: 5px;
+    text-decoration: none;
+    border: none;
+    background-color: orange;
+}
+
+.ul-text{
+    margin-left: 5px;
+    text-decoration: none;
+    border: none;
+    background-color: orange;
+}
+
+#link{
+    margin-left: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #dcdbaa;
+}
